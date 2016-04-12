@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6152CEF01CBDB76900732D4B /* LiveFrost.h in Headers */ = {isa = PBXBuildFile; fileRef = 6152CEEF1CBDB76900732D4B /* LiveFrost.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6152CEFB1CBDB7B800732D4B /* LFDisplayBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 6152CEF71CBDB7B800732D4B /* LFDisplayBridge.h */; };
+		6152CEFB1CBDB7B800732D4B /* LFDisplayBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 6152CEF71CBDB7B800732D4B /* LFDisplayBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6152CEFC1CBDB7B800732D4B /* LFDisplayBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 6152CEF81CBDB7B800732D4B /* LFDisplayBridge.m */; };
-		6152CEFD1CBDB7B800732D4B /* LFGlassView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6152CEF91CBDB7B800732D4B /* LFGlassView.h */; };
+		6152CEFD1CBDB7B800732D4B /* LFGlassView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6152CEF91CBDB7B800732D4B /* LFGlassView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6152CEFE1CBDB7B800732D4B /* LFGlassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6152CEFA1CBDB7B800732D4B /* LFGlassView.m */; };
 		6152CF001CBDB7DC00732D4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6152CEFF1CBDB7DC00732D4B /* UIKit.framework */; };
 /* End PBXBuildFile section */
@@ -41,7 +41,6 @@
 		6152CEE21CBDB76900732D4B = {
 			isa = PBXGroup;
 			children = (
-				6152CEFF1CBDB7DC00732D4B /* UIKit.framework */,
 				6152CEEE1CBDB76900732D4B /* LiveFrost */,
 				6152CEED1CBDB76900732D4B /* Products */,
 			);
@@ -64,6 +63,7 @@
 				6152CEFA1CBDB7B800732D4B /* LFGlassView.m */,
 				6152CEEF1CBDB76900732D4B /* LiveFrost.h */,
 				6152CEF11CBDB76900732D4B /* Info.plist */,
+				6152CEFF1CBDB7DC00732D4B /* UIKit.framework */,
 			);
 			path = LiveFrost;
 			sourceTree = "<group>";
