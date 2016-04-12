@@ -24,6 +24,7 @@
 
 #import <Accelerate/Accelerate.h>
 #import <QuartzCore/QuartzCore.h>
+#import <UIKit/UIKit.h>
 
 @interface LFGlassView : UIView 
 

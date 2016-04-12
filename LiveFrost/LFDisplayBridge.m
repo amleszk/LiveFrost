@@ -20,6 +20,7 @@
 // THE SOFTWARE.
 //
 
+#import <UIKit/UIKit.h>
 #import "LFDisplayBridge.h"
 
 void LF_refreshAllSubscribedViewsApplierFunction(const void *value, void *context);
